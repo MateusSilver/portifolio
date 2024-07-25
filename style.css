@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&family=Manrope:wght@200..800&family=Passion+One:wght@400;700;900&display=swap");
+
+:root {
+  --font-primary: "Manrope", sans-serif;
+  --font-secondary: Arial, sans-serif;
+
+  --primary: #fbb02d;
+  --background: #fbfbfb;
+  --dark: #0c090d;
+  --footer: #494949;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: var(--font1);
+}
