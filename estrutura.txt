@@ -1,0 +1,28 @@
+texto todo - font Manrope
+
+largura base de conteúdo de sessões - 800px
+
+classes
+
+p - text indent 2em
+
+h1 - titulo principal grande e com negrito 64px
+h2 - banner com amarelo atras e negrito 56px
+h3 - texto light e com amarelo atrás grande 24px
+h4 - texto em caps 24px
+h4 nos negritos - apenas tag em 24px
+
+h5 - conteúdo em negrito sem caps
+
+h6 - texto em caps com amarelo atrás pequeno
+
+span - conteúdo amarelo
+
+a - conteúdo completo com a setinha ::after
+
+botões - preto e branco com hover amarelo e preto com seta ::after
+
+1ª sessão com duas colunas, a primeira com conteúdo e a segunda com foto, tamanho 100vh e tela cheia
+
+1ª sessão e 1ª coluna - caixa de textos com 600px de largura maxima
+
