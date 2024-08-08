@@ -133,11 +133,56 @@ h6 {
 }
 
 .column-sixty-percent {
-  height: 100vh;
-  min-width: 60%;
+  max-width: 60%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.column-forty-percent {
+  max-width: 40%;
   display: flex;
   flex-direction: column;
+  justify-content: start;
+}
+
+.card {
+  max-width: 280px;
+  max-height: 280px;
+  overflow-y: hidden;
+  padding: 4px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.card > h4,
+.card > p {
+  text-align: center;
+  line-height: 1.7em;
+  text-indent: 0;
+}
+
+.card:hover > h4 {
+  color: var(--primary);
+}
+
+.card > p {
+  color: #494949;
+}
+
+.card > div {
+  display: flex;
   justify-content: center;
+}
+
+.card > div > img {
+  filter: invert(0%) sepia(5%) saturate(7500%) hue-rotate(261deg)
+    brightness(106%) contrast(106%);
+  max-width: 30%;
+}
+
+.card > div > #github {
+  max-width: 24%;
 }
 
 #first-section > img {
@@ -169,11 +214,15 @@ h6 {
   min-height: 100vh;
 }
 
+.big-container {
+  max-width: 1000px;
+}
+
 .container {
   max-width: 800px;
 }
 
-.container > .center-div {
+.center-div {
   width: inherit;
   display: flex;
   justify-content: center;
@@ -184,10 +233,14 @@ h6 {
   margin: 1em 0;
 }
 
-.container > .two-column {
+.two-column {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2em;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 .container > .two-column > .two-column-text {
