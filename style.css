@@ -164,6 +164,7 @@ h6 {
 
 .card:hover > h4 {
   color: var(--primary);
+  transition: 500ms;
 }
 
 .card > p {
@@ -291,4 +292,44 @@ h6 {
 
 .square-grid > abbr > #java-icon {
   transform: translate(0, -8px);
+}
+
+.diploma {
+  background-color: var(--dark);
+  color: var(--background);
+  margin: 8px;
+
+  width: 200px;
+  height: 100px;
+  padding: 0 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+}
+
+.diploma:hover {
+  transform: translateY(-5px);
+  transition: 500ms;
+}
+
+.diploma:hover > h3 {
+  color: var(--primary);
+}
+
+.diploma > img {
+  height: 50px;
+  margin-right: 8px;
+  filter: invert(74%) sepia(38%) saturate(1264%) hue-rotate(350deg)
+    brightness(98%) contrast(100%);
+}
+
+.diploma > h3 {
+  background-color: rgba(0, 0, 0, 0);
+  line-height: 1.2em;
+}
+
+.column-forty-percent > a {
+  text-decoration: none;
 }
