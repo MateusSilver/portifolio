@@ -45,6 +45,10 @@ p {
   content: "\00A0\2192";
 }
 
+.hyperlink:hover {
+  text-decoration: underline;
+}
+
 .hyperlink:hover:after {
   content: "\00A0\00A0\2192";
 }
@@ -420,10 +424,12 @@ h6 {
   margin-top: 64px;
 }
 
-.grid > div {
+.grid > a {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  color: var(--dark);
 }
 
 .grid > #grid-one {
@@ -473,6 +479,8 @@ h6 {
 .contact > .container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 24px;
 }
 
 .contact > .container > div {
@@ -528,4 +536,46 @@ h6 {
 .social-media > a > div:hover {
   transform: translateY(-4px);
   transition: 300ms;
+}
+
+#instagram:hover {
+  background-color: #d700bb;
+  color: var(--background);
+}
+
+#facebook:hover {
+  background-color: #0866ff;
+  color: var(--background);
+}
+
+#linkedin:hover {
+  background-color: #0a66c2;
+  color: var(--background);
+}
+
+#github:hover {
+  background-color: #3d424d;
+  color: var(--background);
+}
+
+#telegram:hover {
+  background-color: #32a8e5;
+  color: var(--background);
+}
+
+#whatsapp:hover {
+  background-color: #25d366;
+  color: var(--background);
+}
+
+footer {
+  background-color: var(--footer);
+  color: var(--primary);
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+#sloping {
+  transform: rotate(-2deg);
 }
