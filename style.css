@@ -37,10 +37,15 @@ p {
   background-color: var(--primary);
   color: var(--dark);
   text-decoration: none;
-  padding: 5px;
+  padding: 0 5px;
+  margin-top: 24px;
 }
 
-.hyperlink::after {
+.hyperlink:after {
+  content: "\00A0\2192";
+}
+
+.hyperlink:hover:after {
   content: "\00A0\00A0\2192";
 }
 
@@ -213,6 +218,7 @@ h6 {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  margin: 120px auto;
 }
 
 .big-container {
@@ -332,4 +338,64 @@ h6 {
 
 .column-forty-percent > a {
   text-decoration: none;
+}
+
+.extra-habilities {
+  display: flex;
+  justify-content: center;
+}
+
+.extra-habilities > button:hover {
+  padding-right: 20px;
+  padding-left: 20px;
+  transition: 300ms;
+}
+
+.extras {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  margin: 64px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+#project-image-fsw {
+  background-image: url(images/projects/fsw-barber.png);
+  background-size: cover;
+  background-position: center left;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+#project-image-gridcss {
+  background-image: url(images/projects/grid-css.png);
+  background-size: cover;
+  background-position: center right;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+#project-image-propartners {
+  background-image: url(images/projects/propartners.png);
+  background-size: cover;
+  background-position: center left;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.project-details {
+  max-width: 75%;
+  padding: 25px;
+}
+
+.project-details p {
+  margin: 24px 0;
 }
