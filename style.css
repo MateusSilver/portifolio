@@ -399,3 +399,133 @@ h6 {
 .project-details p {
   margin: 24px 0;
 }
+
+.dark-section {
+  background-color: var(--primary);
+  padding: 120px 0;
+}
+
+.dark-section > .center-div > h2 {
+  background-color: var(--dark);
+  color: var(--primary);
+}
+
+.dark-section > .grid {
+  display: grid;
+  max-width: fit-content;
+  margin: 0 auto;
+  grid-template-columns: 20vw 20vw;
+  grid-template-rows: 20vw 20vw 20vw 20vw;
+  gap: 1em;
+  margin-top: 64px;
+}
+
+.grid > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid > #grid-one {
+  background-image: url(images/livros.jpg);
+  background-size: cover;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.grid > #grid-two {
+  background-image: url(images/astronautas.png);
+  background-size: cover;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid > #grid-three {
+  background-image: url(images/anime.png);
+  background-size: cover;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.grid > #grid-four {
+  background-image: url(images/super-metroid.png);
+  background-size: cover;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.contact {
+  background-color: var(--dark);
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact > .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact > .container > div {
+  width: 400px;
+}
+
+.contact > .container > div > ul {
+  margin-top: 48px;
+}
+
+.contact > .container > div > ul > li {
+  line-height: 1.7em;
+}
+
+.contact > .container > div > ul > li > a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.contact > .container > div > ul > li > a::after {
+  content: "\00A0\00A0\2192";
+}
+
+.contact > .container > div > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 48px;
+  max-width: 200px;
+}
+
+.social-media > a {
+  text-decoration: none;
+}
+
+.social-media > a > div {
+  background-color: var(--primary);
+  color: var(--dark);
+  width: 36px;
+  height: 36px;
+  padding: 4px;
+  margin: 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.social-media > a > div:hover {
+  transform: translateY(-4px);
+  transition: 300ms;
+}
