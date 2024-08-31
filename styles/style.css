@@ -373,7 +373,7 @@ h6 {
 }
 
 #project-image-fsw {
-  background-image: url(images/projects/fsw-barber.png);
+  background-image: url(../images/projects/fsw-barber.png);
   background-size: cover;
   background-position: center left;
   width: 200px;
@@ -382,7 +382,7 @@ h6 {
 }
 
 #project-image-gridcss {
-  background-image: url(images/projects/grid-css.png);
+  background-image: url(../images/projects/grid-css.png);
   background-size: cover;
   background-position: center right;
   width: 200px;
@@ -391,7 +391,7 @@ h6 {
 }
 
 #project-image-propartners {
-  background-image: url(images/projects/propartners.png);
+  background-image: url(../images/projects/propartners.png);
   background-size: cover;
   background-position: center left;
   width: 200px;
@@ -437,7 +437,7 @@ h6 {
 }
 
 .grid > #grid-one {
-  background-image: url(images/livros.jpg);
+  background-image: url(../images/livros.jpg);
   background-size: cover;
   grid-row-start: 1;
   grid-row-end: 2;
@@ -446,7 +446,7 @@ h6 {
 }
 
 .grid > #grid-two {
-  background-image: url(images/astronautas.png);
+  background-image: url(../images/astronautas.png);
   background-size: cover;
   grid-row-start: 2;
   grid-row-end: 3;
@@ -455,7 +455,7 @@ h6 {
 }
 
 .grid > #grid-three {
-  background-image: url(images/anime.png);
+  background-image: url(../images/anime.png);
   background-size: cover;
   grid-row-start: 3;
   grid-row-end: 4;
@@ -464,7 +464,7 @@ h6 {
 }
 
 .grid > #grid-four {
-  background-image: url(images/super-metroid.png);
+  background-image: url(../images/super-metroid.png);
   background-size: cover;
   grid-row-start: 4;
   grid-row-end: 5;
