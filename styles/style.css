@@ -132,6 +132,8 @@ h6 {
   padding: 5px;
 }
 
+/* sections */
+/*
 #first-section {
   max-width: 100vw;
   max-height: 100vh;
@@ -139,7 +141,7 @@ h6 {
 
   flex-direction: row;
   justify-content: space-between;
-}
+}*/
 
 .column-sixty-percent {
   max-width: 60%;
@@ -196,7 +198,7 @@ h6 {
   background-color: rgba(000, 000, 000, 0);
 }
 
-#first-section > img {
+#first-section > image > img {
   position: relative;
   top: 0px;
   right: 0px;
@@ -212,7 +214,8 @@ h6 {
   margin-bottom: 2em;
 }
 
-#first-section > .column-sixty-percent > .text-box > p {
+#new > .new-container > .text-box > p {
+  margin-top: 2em;
   margin-bottom: 2em;
   max-width: 600px;
 }

@@ -1,0 +1,27 @@
+#new {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.new-container {
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#image-fundo {
+  width: 30vw;
+  height: 100vh;
+  background-image: url(../images/photo.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-box {
+  max-width: 700px;
+}
