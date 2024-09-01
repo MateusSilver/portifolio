@@ -77,8 +77,9 @@ span {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 800;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -117,6 +118,7 @@ h6 {
   font-weight: 300;
   background-color: var(--primary);
   width: fit-content;
+  margin: auto;
   line-height: 0.8em;
   padding: 5px;
 }
@@ -193,11 +195,12 @@ h6 {
 
 #image-fundo-mobile {
   width: 100vw;
-  height: 50vh;
+  height: 75vh;
   background-image: url(../images/photo.png);
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .text-box > a > button {
@@ -213,4 +216,62 @@ h6 {
 .text-box > p {
   margin-top: 12px;
   margin-bottom: 12px;
+}
+
+#sobre-mim {
+  padding: 10px;
+}
+
+#sobre-mim > .container > h4 {
+  text-align: center;
+}
+
+.square-grid {
+  margin: auto;
+  margin-bottom: 3em;
+}
+
+#sobre-mim > .container > .two-column > .two-column-text > div > h4 {
+  text-align: center;
+}
+
+#sobre-mim > .container > .two-column > .two-column-text > div {
+  margin-bottom: 2em;
+}
+
+#sobre-mim > .container > .two-column > .two-column-text > #button-contact {
+  text-align: center;
+}
+
+#sobre-mim > .container > .two-column > .two-column-text > div > a > button {
+  padding: 1em 2em;
+}
+
+.certificados {
+  display: none;
+}
+
+.certificados-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.certificados-mobile > a {
+  display: block;
+}
+
+.certificados-mobile > a > .diploma {
+  width: 300px;
+}
+
+.column-sixty-percent {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.column-sixty-percent > .card {
+  max-height: 480px;
 }

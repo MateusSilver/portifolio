@@ -583,3 +583,7 @@ footer {
 #sloping {
   transform: rotate(-2deg);
 }
+
+.certificados-mobile {
+  display: none;
+}
