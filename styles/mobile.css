@@ -77,9 +77,10 @@ span {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 800;
   text-align: center;
+  margin-bottom: 2em;
   text-transform: uppercase;
 }
 
@@ -125,7 +126,7 @@ h6 {
 
 /*sections*/
 #first-section {
-  width: 100%;
+  width: 100vw;
   height: 200vh;
   display: flex;
   flex-wrap: wrap;
@@ -174,11 +175,11 @@ h6 {
 
 .new-container {
   width: 100vw;
-  height: 50vh;
+  height: fit-content;
   display: flex;
   padding: 12px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-color: var(--background);
   border-radius: 25px;
   transform: translateY(-16px);
@@ -274,4 +275,58 @@ h6 {
 
 .column-sixty-percent > .card {
   max-height: 480px;
+}
+
+.extra-habilities > a > button > p {
+  font-size: 12px;
+}
+
+.sobre-mim > .big-container {
+  widows: 100vw;
+}
+
+.sobre-mim > .big-container > .project {
+  flex-wrap: wrap;
+}
+
+#tempo-livre > .grid {
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 150px 150px 150px 150px;
+}
+
+#tempo-livre > .center-div > h2 {
+  font-size: 32px;
+}
+
+#contato {
+  padding: 24px;
+}
+
+#contato > .container > div {
+  width: 100%;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contato > .container > div > h3 {
+  text-align: center;
+}
+
+#contato > .container > div > ul > li {
+  margin-bottom: 1em;
+}
+
+.social-media {
+  justify-content: center;
+  align-items: center;
+}
+
+footer > p {
+  font-size: 0.8em;
+}
+
+#habilidades > .big-container > .center-div > h2 {
+  font-size: 42px;
 }
