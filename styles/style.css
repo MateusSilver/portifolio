@@ -221,12 +221,14 @@ header > nav > ul > li {
 
 header > nav > ul > li > a {
   text-decoration: none;
+  padding: 0 0.2em;
   color: var(--dark);
   transition: color 200ms ease-in;
 }
 
 header > nav > ul > li > a:hover {
-  color: var(--primary);
+  background-color: var(--primary);
+  color: var(--dark);
 }
 
 #first-section > image > img {
