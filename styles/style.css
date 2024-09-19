@@ -453,6 +453,15 @@ header > nav > ul > li > a:hover {
   border-radius: 8px;
 }
 
+#project-image-brava {
+  background-image: url(../images/projects/bravajr.jpeg);
+  background-size: cover;
+  background-position: top right;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
 .project-details {
   max-width: 75%;
   padding: 25px;
