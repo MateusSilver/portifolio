@@ -390,6 +390,15 @@ h6 {
   border-radius: 8px;
 }
 
+#project-image-gerenciador-app {
+  background-image: url(../images/projects/gerenciador-app.jpeg);
+  background-size: cover;
+  background-position: center center;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
 #project-image-propartners {
   background-image: url(../images/projects/propartners.png);
   background-size: cover;
