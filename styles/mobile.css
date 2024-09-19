@@ -150,6 +150,10 @@ h6 {
   justify-content: start;
 }
 
+header > nav {
+  display: none;
+}
+
 #first-section > .column-sixty-percent > .text-box > h1,
 h5,
 h6 {
