@@ -462,6 +462,15 @@ header > nav > ul > li > a:hover {
   border-radius: 8px;
 }
 
+#project-image-level {
+  background-image: url(../images/projects/Level5jr.jpeg);
+  background-size: cover;
+  background-position: top center;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
 .project-details {
   max-width: 75%;
   padding: 25px;
