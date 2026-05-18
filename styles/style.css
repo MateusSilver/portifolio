@@ -417,6 +417,24 @@ header > nav > ul > li > a:hover {
   justify-content: center;
 }
 
+#project-image-patas {
+  background-image: url(../images/projects/patas.jpg);
+  background-size: cover;
+  background-position: center left;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+#project-image-help {
+  background-image: url(../images/projects/help.jpg);
+  background-size: cover;
+  background-position: center left;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
 #project-image-gerenciador-api {
   background-image: url(../images/projects/gerenciador\ de\ tarefas.jpg);
   background-size: cover;
