@@ -471,15 +471,6 @@ header > nav > ul > li > a:hover {
   border-radius: 8px;
 }
 
-#project-image-propartners {
-  background-image: url(../images/projects/propartners.png);
-  background-size: cover;
-  background-position: center left;
-  width: 200px;
-  height: 200px;
-  border-radius: 8px;
-}
-
 #project-image-brava {
   background-image: url(../images/projects/bravajr.jpeg);
   background-size: cover;
